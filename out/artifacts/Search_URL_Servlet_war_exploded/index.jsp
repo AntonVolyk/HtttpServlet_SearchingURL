@@ -19,7 +19,6 @@
         position: relative ;
         top: 50px;
         left:170px;
-        background-image: url("E:\Java_Project\Search_URL_Servlet\web\1.gif");
       }
       input{
         border:solid 2px gray;
