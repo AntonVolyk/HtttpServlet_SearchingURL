@@ -18,7 +18,7 @@ import java.util.stream.Stream;
 /**
  * Created by Антон on 04.05.2015.
  */
-class ResultEvents //implements Runnable
+class ResultEvents
 {
     static  TreeMap<String,Integer> map=new TreeMap<>();// коллекция слов и кол-ва их повторений
     static HashSet<String> list=new HashSet<>();//коллекция пересмотренных url - адресов
@@ -32,7 +32,6 @@ class ResultEvents //implements Runnable
         this.pw=pw;
         pat= Pattern.compile("https?://(w{3})?.[a-z-0-9.]+.([a-z-0-9]+?.)?(ru|com|ua|php|org)");
         strUrl=str;
-      //  new Thread(this).start();
     }
     public void searchUrl(String str) {
         try {
