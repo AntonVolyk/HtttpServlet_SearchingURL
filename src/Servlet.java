@@ -25,7 +25,7 @@ class ResultEvents
     static HashSet<String> listWord=new HashSet<>();//коллекция URL, где были найдены искомые слова
     Pattern pat;
     Matcher mat;
-    PrintWriter pw;
+    PrintWriter pw; // тест коммита на ветки Антон
     String strUrl;
     ResultEvents(String str,PrintWriter pw)
     {
